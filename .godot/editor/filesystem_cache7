@@ -1,0 +1,6 @@
+102b54792f6b2ef812636a2bdaeb9d34
+::res://::1657012655
+default_env.tres::Environment::-1::1657011592::0::1::::<><>::
+icon.png::CompressedTexture2D::4075583250867386695::1656948910::1657011622::1::::<><>::
+Main.gd::GDScript::-1::1657012607::0::1::::<>Node2D<>::
+Solution.tscn::PackedScene::6297648400221122152::1657012619::0::1::::<><>::res://Main.gd

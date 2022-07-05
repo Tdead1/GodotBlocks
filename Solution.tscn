@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvyvl4rhawl8k"]
+
+[ext_resource type="Script" path="res://Main.gd" id="1"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( "1" )
+
+[node name="Button" type="Button" parent="."]
+offset_left = 913.0
+offset_top = 28.0
+offset_right = 974.0
+offset_bottom = 59.0
+text = "Reload"
+
+[node name="LineEdit" type="LineEdit" parent="."]
+offset_left = 776.0
+offset_top = 29.0
+offset_right = 902.0
+offset_bottom = 60.0
+placeholder_text = "Point count..."
+
+[connection signal="pressed" from="Button" to="." method="_on_Reload_pressed"]
+[connection signal="text_changed" from="LineEdit" to="." method="_on_point_amount_changed"]
